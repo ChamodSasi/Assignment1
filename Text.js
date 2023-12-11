@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+ //Bold
+ function bold() {
+    formatDoc("bold");
+}
+document.getElementById("boldButton").addEventListener("click", bold);
+=======
 document.addEventListener("DOMContentLoaded", function () {
     const content = document.getElementById("content");
 
@@ -18,3 +25,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
 });
+>>>>>>> 2358dc54ea6bd8d52a786176f86bd4a466148931

@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const content = document.getElementById("content");
+
+    // Function to execute document commands
+    function formatDoc(command, value = null) {
+        document.execCommand(command, false, value);
+    }
+
 
  function bold() {
     formatDoc("bold");
@@ -73,7 +81,7 @@ document.getElementById("redoButton").addEventListener("click", redo);
 
 
 
-
+});
 
 
 

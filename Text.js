@@ -10,6 +10,13 @@ document.getElementById("boldButton").addEventListener("click", bold);
 }
 document.getElementById("underlineButton").addEventListener("click", underline);
 
+ //Italic
+ function italic() {
+    formatDoc("italic");
+}
+document.getElementById("italicButton").addEventListener("click", italic);
+
+
 
 
 

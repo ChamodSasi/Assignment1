@@ -44,7 +44,19 @@ function justifyFull() {
 document.getElementById("justifyFullButton").addEventListener("click", justifyFull);
 
 
+ //Color Change
+ function openColorPicker() {
+    // Create a color input element
+    const colorInput = document.createElement("input");
+    colorInput.type = "color";
 
+    colorInput.addEventListener("input", function () {
+        formatDoc("foreColor", colorInput.value);
+    });
+
+    colorInput.click();
+}
+document.getElementById("colorButton").addEventListener("click", openColorPicker);
 
 
 

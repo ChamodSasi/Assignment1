@@ -1,0 +1,31 @@
+button{
+	border: none;
+	background: none;
+	height:70px;
+}
+
+button:hover{
+	background:#000000;
+	cursor: pointer;
+
+}
+
+.container{
+	display:flex;
+	justify-content:center;
+	gap:30px;
+	align-items:center;
+}
+
+.toolbar{
+	background:#172228;
+
+}
+#content{
+	max-width:800px;
+	margin:20px auto;
+	height:200px;
+	width:95%;
+	border:1px SOLID #080808;
+    padding: 10px;
+}

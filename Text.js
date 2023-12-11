@@ -16,6 +16,32 @@ document.getElementById("underlineButton").addEventListener("click", underline);
 }
 document.getElementById("italicButton").addEventListener("click", italic);
 
+ //Justify Left
+ function justifyLeft() {
+    formatDoc("justifyLeft");
+}
+document.getElementById("justifyLeftButton").addEventListener("click", justifyLeft);
+
+
+//justify Center
+function justifyCenter() {
+    formatDoc("justifyCenter");
+}
+document.getElementById("justifyCenterButton").addEventListener("click", justifyCenter);
+
+
+//justify Right
+function justifyRight() {
+    formatDoc("justifyRight");
+}
+document.getElementById("justifyRightButton").addEventListener("click", justifyRight);
+
+
+//justify Full
+function justifyFull() {
+    formatDoc("justifyFull");
+}
+document.getElementById("justifyFullButton").addEventListener("click", justifyFull);
 
 
 

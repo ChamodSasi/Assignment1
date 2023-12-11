@@ -58,6 +58,20 @@ document.getElementById("justifyFullButton").addEventListener("click", justifyFu
 }
 document.getElementById("colorButton").addEventListener("click", openColorPicker);
 
+  //Undo
+  function undo() {
+    formatDoc("undo");
+}
+document.getElementById("undoButton").addEventListener("click", undo);
+
+
+//Redo
+function redo() {
+    formatDoc("redo");
+}
+document.getElementById("redoButton").addEventListener("click", redo);
+
+
 
 
 
